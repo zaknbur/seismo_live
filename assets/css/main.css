@@ -507,10 +507,6 @@ article {
     overflow: visible !important;
 }
 
-#tmpnb_link:hover {
-    color: white !important;
-}
-
 #launch_article {
     z-index: 1000 !important;
     animation: pulse 3.5s infinite;
@@ -526,4 +522,35 @@ article {
   100% {
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 1.0), 0px 0px 50px 000px rgb(30, 201, 32);
   }
+}
+
+.modal, .modal-title, .modal-content b {
+    color: black
+}
+
+.modal-header > h2 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: none;
+}
+
+.modal-content a {
+    color: red;
+}
+
+.row > h2 {
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    padding-top: 20px;
+}
+
+.modal img {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
