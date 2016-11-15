@@ -471,23 +471,6 @@
     box-shadow:         0 0 5px black;
 }
 
-#maintenance {
-    position: absolute;
-    z-index: 101;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #FF5E38;
-    color: white;
-    font-size: xx-large;
-    text-align: center;
-    line-height: 5.5;
-    overflow: hidden;
-    -webkit-box-shadow: 0 0 5px black;
-    -moz-box-shadow:    0 0 5px black;
-    box-shadow:         0 0 5px black;
-}
-
 
 #status {
     margin: 20px !important;
